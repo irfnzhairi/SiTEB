@@ -22,4 +22,19 @@
     Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
 
     End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result1 As DialogResult = MessageBox.Show("Your reservation has been received, check status to check approval status",
+    "Reservation Received",
+    MessageBoxButtons.OK)
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Hide()
+        Form4.Show()
+    End Sub
 End Class

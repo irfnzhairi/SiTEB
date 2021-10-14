@@ -46,7 +46,7 @@ Partial Class Form2
         Me.Label4.ForeColor = System.Drawing.Color.Gold
         Me.Label4.Location = New System.Drawing.Point(357, 123)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(41, 55)
+        Me.Label4.Size = New System.Drawing.Size(47, 63)
         Me.Label4.TabIndex = 15
         Me.Label4.Text = "i"
         '
@@ -57,7 +57,7 @@ Partial Class Form2
         Me.Label6.ForeColor = System.Drawing.Color.Navy
         Me.Label6.Location = New System.Drawing.Point(317, 123)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(55, 55)
+        Me.Label6.Size = New System.Drawing.Size(62, 63)
         Me.Label6.TabIndex = 18
         Me.Label6.Text = "S"
         '
@@ -68,7 +68,7 @@ Partial Class Form2
         Me.Label2.ForeColor = System.Drawing.Color.DarkBlue
         Me.Label2.Location = New System.Drawing.Point(324, 178)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(185, 15)
+        Me.Label2.Size = New System.Drawing.Size(217, 17)
         Me.Label2.TabIndex = 16
         Me.Label2.Text = "SISTEM TEMPAHAN BILIK " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -79,7 +79,7 @@ Partial Class Form2
         Me.Label5.ForeColor = System.Drawing.Color.Navy
         Me.Label5.Location = New System.Drawing.Point(387, 123)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(125, 55)
+        Me.Label5.Size = New System.Drawing.Size(143, 63)
         Me.Label5.TabIndex = 17
         Me.Label5.Text = "TEB"
         '
@@ -113,7 +113,7 @@ Partial Class Form2
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(271, 231)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(41, 19)
+        Me.Label1.Size = New System.Drawing.Size(47, 20)
         Me.Label1.TabIndex = 22
         Me.Label1.Text = "Email"
         '
@@ -123,7 +123,7 @@ Partial Class Form2
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(271, 277)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(67, 19)
+        Me.Label3.Size = New System.Drawing.Size(78, 20)
         Me.Label3.TabIndex = 23
         Me.Label3.Text = "Password"
         '
