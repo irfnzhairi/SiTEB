@@ -28,6 +28,15 @@ Partial Class Form3
         Me.Label5 = New System.Windows.Forms.Label()
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.TabControl1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label4
@@ -35,7 +44,7 @@ Partial Class Form3
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Cooper Black", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Gold
-        Me.Label4.Location = New System.Drawing.Point(76, 32)
+        Me.Label4.Location = New System.Drawing.Point(101, 9)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(41, 55)
         Me.Label4.TabIndex = 19
@@ -46,7 +55,7 @@ Partial Class Form3
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Cooper Black", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Navy
-        Me.Label6.Location = New System.Drawing.Point(36, 32)
+        Me.Label6.Location = New System.Drawing.Point(61, 9)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(55, 55)
         Me.Label6.TabIndex = 22
@@ -57,7 +66,7 @@ Partial Class Form3
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Cooper Black", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label2.Location = New System.Drawing.Point(43, 87)
+        Me.Label2.Location = New System.Drawing.Point(68, 64)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(185, 15)
         Me.Label2.TabIndex = 20
@@ -68,7 +77,7 @@ Partial Class Form3
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Cooper Black", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Navy
-        Me.Label5.Location = New System.Drawing.Point(106, 32)
+        Me.Label5.Location = New System.Drawing.Point(131, 9)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(125, 55)
         Me.Label5.TabIndex = 21
@@ -76,8 +85,8 @@ Partial Class Form3
         '
         'MonthCalendar1
         '
-        Me.MonthCalendar1.CalendarDimensions = New System.Drawing.Size(2, 1)
-        Me.MonthCalendar1.Location = New System.Drawing.Point(171, 144)
+        Me.MonthCalendar1.CalendarDimensions = New System.Drawing.Size(2, 2)
+        Me.MonthCalendar1.Location = New System.Drawing.Point(18, 111)
         Me.MonthCalendar1.Name = "MonthCalendar1"
         Me.MonthCalendar1.TabIndex = 28
         '
@@ -91,11 +100,92 @@ Partial Class Form3
         Me.Button1.Text = "Back"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPage4)
+        Me.TabControl1.Location = New System.Drawing.Point(503, 182)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(266, 137)
+        Me.TabControl1.TabIndex = 31
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Size = New System.Drawing.Size(258, 111)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "BILIK 1"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Size = New System.Drawing.Size(258, 111)
+        Me.TabPage2.TabIndex = 0
+        Me.TabPage2.Text = "BILIK 2"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(514, 145)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(134, 34)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "STATUS"
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New System.Drawing.Size(258, 111)
+        Me.TabPage3.TabIndex = 0
+        Me.TabPage3.Text = "BILIK 3"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'TabPage4
+        '
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Size = New System.Drawing.Size(258, 111)
+        Me.TabPage4.TabIndex = 0
+        Me.TabPage4.Text = "BILIK 4"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!)
+        Me.Button2.Location = New System.Drawing.Point(694, 12)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 33
+        Me.Button2.Text = "Approval"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!)
+        Me.Button4.Location = New System.Drawing.Point(694, 41)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 35
+        Me.Button4.Text = "Statistic"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.Label4)
@@ -104,6 +194,7 @@ Partial Class Form3
         Me.Controls.Add(Me.Label5)
         Me.Name = "Form3"
         Me.Text = "SISTEM TEMPAHAN BILIK"
+        Me.TabControl1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -115,4 +206,12 @@ Partial Class Form3
     Friend WithEvents Label5 As Label
     Friend WithEvents MonthCalendar1 As MonthCalendar
     Friend WithEvents Button1 As Button
+    Friend WithEvents TabControl1 As TabControl
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents TabPage4 As TabPage
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button4 As Button
 End Class

@@ -11,4 +11,12 @@
         Me.Hide()
         Form1.Show()
     End Sub
+
+    Private Sub StatusStrip1_ItemClicked_1(sender As Object, e As ToolStripItemClickedEventArgs)
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
 End Class
