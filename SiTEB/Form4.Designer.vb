@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form4
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form4
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -32,9 +32,6 @@ Partial Class Form4
         Me.Room = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.status = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -45,7 +42,7 @@ Partial Class Form4
         Me.Label4.ForeColor = System.Drawing.Color.Gold
         Me.Label4.Location = New System.Drawing.Point(335, 28)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(41, 55)
+        Me.Label4.Size = New System.Drawing.Size(47, 63)
         Me.Label4.TabIndex = 15
         Me.Label4.Text = "i"
         '
@@ -56,7 +53,7 @@ Partial Class Form4
         Me.Label6.ForeColor = System.Drawing.Color.Navy
         Me.Label6.Location = New System.Drawing.Point(295, 28)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(55, 55)
+        Me.Label6.Size = New System.Drawing.Size(62, 63)
         Me.Label6.TabIndex = 18
         Me.Label6.Text = "S"
         '
@@ -67,7 +64,7 @@ Partial Class Form4
         Me.Label2.ForeColor = System.Drawing.Color.DarkBlue
         Me.Label2.Location = New System.Drawing.Point(302, 83)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(185, 15)
+        Me.Label2.Size = New System.Drawing.Size(217, 17)
         Me.Label2.TabIndex = 16
         Me.Label2.Text = "SISTEM TEMPAHAN BILIK " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -78,7 +75,7 @@ Partial Class Form4
         Me.Label5.ForeColor = System.Drawing.Color.Navy
         Me.Label5.Location = New System.Drawing.Point(365, 28)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(125, 55)
+        Me.Label5.Size = New System.Drawing.Size(143, 63)
         Me.Label5.TabIndex = 17
         Me.Label5.Text = "TEB"
         '
@@ -130,44 +127,11 @@ Partial Class Form4
         Me.Button1.Text = "Back"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button4
-        '
-        Me.Button4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!)
-        Me.Button4.Location = New System.Drawing.Point(702, 57)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 37
-        Me.Button4.Text = "Statistic"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!)
-        Me.Button2.Location = New System.Drawing.Point(702, 28)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 36
-        Me.Button2.Text = "Approval"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!)
-        Me.Button5.Location = New System.Drawing.Point(702, 86)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 54
-        Me.Button5.Text = "Calender"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label4)
@@ -192,7 +156,4 @@ Partial Class Form4
     Friend WithEvents Room As DataGridViewTextBoxColumn
     Friend WithEvents status As DataGridViewTextBoxColumn
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button5 As Button
 End Class

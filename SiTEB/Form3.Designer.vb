@@ -27,13 +27,12 @@ Partial Class Form3
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
@@ -46,7 +45,7 @@ Partial Class Form3
         Me.Label4.ForeColor = System.Drawing.Color.Gold
         Me.Label4.Location = New System.Drawing.Point(101, 9)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(41, 55)
+        Me.Label4.Size = New System.Drawing.Size(47, 63)
         Me.Label4.TabIndex = 19
         Me.Label4.Text = "i"
         '
@@ -57,7 +56,7 @@ Partial Class Form3
         Me.Label6.ForeColor = System.Drawing.Color.Navy
         Me.Label6.Location = New System.Drawing.Point(61, 9)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(55, 55)
+        Me.Label6.Size = New System.Drawing.Size(62, 63)
         Me.Label6.TabIndex = 22
         Me.Label6.Text = "S"
         '
@@ -68,7 +67,7 @@ Partial Class Form3
         Me.Label2.ForeColor = System.Drawing.Color.DarkBlue
         Me.Label2.Location = New System.Drawing.Point(68, 64)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(185, 15)
+        Me.Label2.Size = New System.Drawing.Size(217, 17)
         Me.Label2.TabIndex = 20
         Me.Label2.Text = "SISTEM TEMPAHAN BILIK " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -79,26 +78,15 @@ Partial Class Form3
         Me.Label5.ForeColor = System.Drawing.Color.Navy
         Me.Label5.Location = New System.Drawing.Point(131, 9)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(125, 55)
+        Me.Label5.Size = New System.Drawing.Size(143, 63)
         Me.Label5.TabIndex = 21
         Me.Label5.Text = "TEB"
         '
         'MonthCalendar1
         '
-        Me.MonthCalendar1.CalendarDimensions = New System.Drawing.Size(2, 2)
-        Me.MonthCalendar1.Location = New System.Drawing.Point(18, 111)
+        Me.MonthCalendar1.Location = New System.Drawing.Point(72, 145)
         Me.MonthCalendar1.Name = "MonthCalendar1"
         Me.MonthCalendar1.TabIndex = 28
-        '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!)
-        Me.Button1.Location = New System.Drawing.Point(659, 384)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 29
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'TabControl1
         '
@@ -130,15 +118,6 @@ Partial Class Form3
         Me.TabPage2.Text = "BILIK 2"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(514, 145)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(134, 34)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "STATUS"
-        '
         'TabPage3
         '
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
@@ -156,6 +135,15 @@ Partial Class Form3
         Me.TabPage4.TabIndex = 0
         Me.TabPage4.Text = "BILIK 4"
         Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(514, 145)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(134, 34)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "STATUS"
         '
         'Button2
         '
@@ -186,7 +174,6 @@ Partial Class Form3
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TabControl1)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label6)
@@ -205,7 +192,6 @@ Partial Class Form3
     Friend WithEvents Label2 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents MonthCalendar1 As MonthCalendar
-    Friend WithEvents Button1 As Button
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TabPage2 As TabPage

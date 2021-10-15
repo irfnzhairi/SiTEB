@@ -22,10 +22,9 @@ Partial Class Form6
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim ChartArea4 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend4 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series4 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series3 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Chart1 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -37,39 +36,29 @@ Partial Class Form6
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!)
-        Me.Button1.Location = New System.Drawing.Point(664, 394)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 41
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(71, 108)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(154, 29)
+        Me.Label1.Size = New System.Drawing.Size(177, 32)
         Me.Label1.TabIndex = 43
         Me.Label1.Text = "STATISTIC"
         '
         'Chart1
         '
-        ChartArea4.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea4)
-        Legend4.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend4)
+        ChartArea3.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea3)
+        Legend3.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend3)
         Me.Chart1.Location = New System.Drawing.Point(76, 160)
         Me.Chart1.Name = "Chart1"
         Me.Chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen
-        Series4.ChartArea = "ChartArea1"
-        Series4.Legend = "Legend1"
-        Series4.Name = "Series1"
-        Me.Chart1.Series.Add(Series4)
+        Series3.ChartArea = "ChartArea1"
+        Series3.Legend = "Legend1"
+        Series3.Name = "Series1"
+        Me.Chart1.Series.Add(Series3)
         Me.Chart1.Size = New System.Drawing.Size(462, 257)
         Me.Chart1.TabIndex = 47
         Me.Chart1.Text = "Chart1"
@@ -81,7 +70,7 @@ Partial Class Form6
         Me.Label4.ForeColor = System.Drawing.Color.Gold
         Me.Label4.Location = New System.Drawing.Point(349, 19)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(41, 55)
+        Me.Label4.Size = New System.Drawing.Size(47, 63)
         Me.Label4.TabIndex = 48
         Me.Label4.Text = "i"
         '
@@ -92,7 +81,7 @@ Partial Class Form6
         Me.Label6.ForeColor = System.Drawing.Color.Navy
         Me.Label6.Location = New System.Drawing.Point(309, 19)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(55, 55)
+        Me.Label6.Size = New System.Drawing.Size(62, 63)
         Me.Label6.TabIndex = 51
         Me.Label6.Text = "S"
         '
@@ -103,7 +92,7 @@ Partial Class Form6
         Me.Label2.ForeColor = System.Drawing.Color.DarkBlue
         Me.Label2.Location = New System.Drawing.Point(316, 74)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(185, 15)
+        Me.Label2.Size = New System.Drawing.Size(217, 17)
         Me.Label2.TabIndex = 49
         Me.Label2.Text = "SISTEM TEMPAHAN BILIK " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -114,7 +103,7 @@ Partial Class Form6
         Me.Label5.ForeColor = System.Drawing.Color.Navy
         Me.Label5.Location = New System.Drawing.Point(379, 19)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(125, 55)
+        Me.Label5.Size = New System.Drawing.Size(143, 63)
         Me.Label5.TabIndex = 50
         Me.Label5.Text = "TEB"
         '
@@ -150,7 +139,6 @@ Partial Class Form6
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Chart1)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form6"
         Me.Text = "Form6"
@@ -159,7 +147,6 @@ Partial Class Form6
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Chart1 As DataVisualization.Charting.Chart
     Friend WithEvents Label4 As Label

@@ -22,7 +22,6 @@ Partial Class Form5
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -45,16 +44,6 @@ Partial Class Form5
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!)
-        Me.Button1.Location = New System.Drawing.Point(634, 385)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 26
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -62,7 +51,7 @@ Partial Class Form5
         Me.Label4.ForeColor = System.Drawing.Color.Gold
         Me.Label4.Location = New System.Drawing.Point(331, 21)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(41, 55)
+        Me.Label4.Size = New System.Drawing.Size(47, 63)
         Me.Label4.TabIndex = 21
         Me.Label4.Text = "i"
         '
@@ -73,7 +62,7 @@ Partial Class Form5
         Me.Label6.ForeColor = System.Drawing.Color.Navy
         Me.Label6.Location = New System.Drawing.Point(291, 21)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(55, 55)
+        Me.Label6.Size = New System.Drawing.Size(62, 63)
         Me.Label6.TabIndex = 24
         Me.Label6.Text = "S"
         '
@@ -84,7 +73,7 @@ Partial Class Form5
         Me.Label2.ForeColor = System.Drawing.Color.DarkBlue
         Me.Label2.Location = New System.Drawing.Point(298, 76)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(185, 15)
+        Me.Label2.Size = New System.Drawing.Size(217, 17)
         Me.Label2.TabIndex = 22
         Me.Label2.Text = "SISTEM TEMPAHAN BILIK " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -95,7 +84,7 @@ Partial Class Form5
         Me.Label5.ForeColor = System.Drawing.Color.Navy
         Me.Label5.Location = New System.Drawing.Point(361, 21)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(125, 55)
+        Me.Label5.Size = New System.Drawing.Size(143, 63)
         Me.Label5.TabIndex = 23
         Me.Label5.Text = "TEB"
         '
@@ -143,7 +132,7 @@ Partial Class Form5
         Me.Button2.ForeColor = System.Drawing.Color.ForestGreen
         Me.Button2.Location = New System.Drawing.Point(228, 331)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(82, 30)
         Me.Button2.TabIndex = 28
         Me.Button2.Text = "Approve"
         Me.Button2.UseVisualStyleBackColor = True
@@ -154,7 +143,7 @@ Partial Class Form5
         Me.Button3.ForeColor = System.Drawing.Color.DarkRed
         Me.Button3.Location = New System.Drawing.Point(411, 331)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(93, 30)
         Me.Button3.TabIndex = 29
         Me.Button3.Text = "Deny"
         Me.Button3.UseVisualStyleBackColor = True
@@ -249,7 +238,6 @@ Partial Class Form5
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label2)
@@ -261,8 +249,6 @@ Partial Class Form5
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Button1 As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label2 As Label
